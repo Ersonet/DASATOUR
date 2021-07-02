@@ -1,0 +1,1955 @@
+*{	
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.social{
+	position:fixed;
+	right:0;
+	top:370px;
+	font-size:1.1em;
+	z-index:2000;
+}
+.social ul{
+	list-style:none;
+}
+.social ul li a{
+	display: inline-block;
+	color:#fff;
+	background:#000;
+	padding:10px 15px;
+	text-decoration:none;
+	-webkit-transition:all 500ms ease;
+	-o- transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+.social ul li a:hover{
+	margin-left: -50px;
+	padding: 10px 40px;
+}
+.social ul li .icon-facebook{
+	background:#3B5998;
+}
+.social ul li .icon-whatsapp{
+	background:#128c7e;
+}
+.social ul li .icon-mail{
+	background:#0072C6;
+}
+.icon-menu{
+	color:#ffc734;
+}
+.icon-menu:before {
+    content: "\e9bd";
+    margin: -8px;
+    font-size: 25px;
+    padding: -5px;
+    line-height: 0;
+}
+body{
+	color: #2c55ad;
+	font-size:20px;
+	font-family: 'Fredoka One', cursive;
+	background-position:center;
+	background-size:cover;
+	background-color: #FFF;
+	margin:auto;
+}
+#cabeza{
+	background-color: #FFF;
+	margin:auto;
+	width:100%;
+}
+.logodasatour{
+	align-items:center;/*centrar horizontalmente*/
+	background-color: #2c55ad;
+	display:flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:auto;/*Centrar verticalmente*/
+	padding:10px;
+	max-width:100%;/*Ancho maximo*/
+}
+#menu-principal{
+	background:#2c55ad;
+	width:100%;
+}
+#menu-del-dia{
+	display:none;
+}
+#menu-principal label{
+	border-right:10px solid #2c55ad;
+	display:none;
+	height:35px;
+	padding:.6em;
+	width:45px;
+}
+#menu-principal label:hover{
+	background-color:rgba(0,0,0,.5);
+	cursor:pointer;
+}
+.menu{
+	background-color:#2c55ad;
+}
+.menu ul{
+	display:flex;
+	justify-content:flex-end;
+	list-style:none;
+}
+.menu li{
+	border-right:3px solid #fff;
+	color:#2c55ad;
+	flex-grow:1;
+	text-align:center;
+	transition:all .7s;
+}
+.menu li:hover,.menu li.active, .menu a.active{
+	color:#2c55ad;
+	background-color:#ffc734;
+}
+.menu li a{
+	display:block;
+	color:#ffc734;
+	padding:.5em 1.2em;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #2c55ad;
+}
+#eldestinoquesoñaste{
+	background-color:#2c55ad;
+	background-position: center;
+	color:#FFF;
+	font-size: 20px;
+	max-width:100%;/*Ancho maximo*/
+	margin:auto;
+	padding:40px;
+}
+.contenedoreldestinoquesoñaste{
+	display:flex;
+	color:#FFF;
+	font-size:60px;
+	height:62px;
+	line-height:62px;
+	width:100%;
+	justify-content:center;/*ayuda a distribuir*/
+	
+	position: relative;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	overflow:hidden;
+}
+.contenedoreldestinoquesoñaste h1{
+	color:#fbc82e;
+	font-size:45px;
+	font-family: 'Righteous', cursive;
+	text-align:center;
+	position:relative;
+}
+ol, p{
+	text-align:center;
+	margin:auto;
+	font-family: 'Comfortaa', cursive;
+	padding:5px;
+	max-width:100%;
+}
+ol{
+	list-style:none;
+	padding-left:20px;
+	animation: cambiar 3.5s infinite;
+}
+@keyframes cambiar {
+	0% {margin-top:0;}
+	20% {margin-top:0;}
+	
+	25% {margin-top:-30px;}
+	50% {margin-top:-30px;}
+	
+	55% {margin-top:-70px;}
+	80% {margin-top:-70px;}
+	
+	85% {margin-top:-30px;}
+	95% {margin-top:-30px;}
+	
+	100% {margin-top:0;}
+}
+.slider{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	max-width:100%;
+}
+.slider ul{
+	display:flex;
+	padding:0;
+	width:400%;
+	
+	animation:cambio 20s infinite alternate;
+}
+.slider li{
+	width:100%;
+	list-style:none;
+}
+.slider img{
+	width:100%;
+	max-width:100%;
+}
+@keyframes cambio{
+	0% {margin-left:0;}
+	20% {margin-left:0;}
+	
+	25% {margin-left:-100%;}
+	45% {margin-left:-100%;}
+	
+	50% {margin-left:-200%;}
+	70% {margin-left:-200%;}
+	
+	75% {margin-left:-300%;}
+	100% {margin-left:-300%;}
+}
+#quienessomos{
+	align-items:center;
+	background-color: #fff;
+	display:inline;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:auto;
+	max-width:100%;
+}
+.parrafos{
+	margin:auto;
+	font-size:3em;
+}
+.textoquienessomos{
+    text-align: center;
+    margin: auto;
+    font-size:20px;
+    font-family: 'Comfortaa', cursive;
+}
+h3,h4,h5{
+	color:#fff;
+	font-size:0.7em;
+	background:#2c55ad;
+	font-family: 'Comfortaa', cursive;
+	padding:5px;
+	margin:auto;
+	text-align:center;
+}
+.giron{
+	width:100%;
+	margin:auto;
+	max-width:100%;
+}
+.giron img{
+	width:100%;
+}
+.destinos3{
+	color:#fff;
+	background:#2c55ad;
+	font-size:50px;
+	margin:5px;
+	padding:10px 0 10px 0;
+	max-width:100%;
+}
+#fullgaleria{
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:auto;
+	display:block;
+	margin:-10px;
+}
+#galeria{
+	padding:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:auto;
+	display:inline-block;
+}
+.galeriaitem{
+	width:60%;
+	cursor:pointer;
+}
+li{
+	list-style:none;
+}
+.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+.galeriaimg{
+	width:600px;
+	height:350px;
+	margin-bottom:30px;
+	filter:brightness(60%);
+	animation: escalar 1.2s infinite alternate;
+}
+@keyframes escalar{
+	top{
+		transform:scale(1);
+	}
+	from{
+		transform:scale(1.05);
+	}
+}
+@media (min-width:1024px){
+	.galeriaitem{
+	width:20%;
+	margin:15px;
+	}
+}
+@media (min-width:770px){
+	.galeriaitem{
+	width:30%;
+	margin:10px;
+	}
+}
+@media (min-width:480px){
+	.galeriaitem{
+	width:40%;
+	margin:5px;
+	}
+}
+.modal{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.7);
+	top:0;
+	left:0;
+	
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}
+.modalimg{
+	width:80%;
+	max-width:1000px;
+}
+#modalbotton{
+	width:50px;
+	height:50px;
+	color:#fff;
+	font-weight:bold;
+	font-size:24px;
+	font-family: 'Comfortaa', cursive;
+	line-height:50px;
+	text-align:center;
+	background:#F00;
+	border-radius:50%;
+	position:absolute;
+	right:10px;
+	top:10px;
+	cursor:pointer;
+}
+.galeriaimg:hover{
+	filter:brightness(100%);
+}
+#servicios{
+	color:#2c55ad;
+	align-items:flex-start;/*alinear arriba*/
+	display:flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	background: #fff;
+	margin:auto;
+	max-width:100%;
+	text-align:center;
+}
+.slider2{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	max-width:100%;
+}
+.slider2 ul{
+	display:flex;
+	padding:0;
+	width:300%;
+	
+	animation:cambie 20s infinite;
+}
+.slider2 li{
+	width:100%;
+	list-style:none;
+}
+.slider2 img{
+	width:100%;
+}
+@keyframes cambie{
+	0% {margin-left:0;}
+	20% {margin-left:0;}
+	
+	25% {margin-left:-100%;}
+	45% {margin-left:-100%;}
+	
+	50% {margin-left:-200%;}
+	70% {margin-left:-200%;}
+	
+	100% {margin-left:0;}
+
+}
+.gifcontactanos{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	max-width:100%;
+}
+.gifcontactanos img{
+	width:100%;
+}
+.transporte,.seguromedico,.hospedaje{
+	align-items:center;/*centrar horizontalmente*/
+	display:flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:15px;
+	width:30%;
+}
+strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:2em;
+	margin:5px;
+	padding:10px;
+	max-width:100%;
+	
+}
+b{
+	color:#2c55ad;
+	text-align:center;
+	font-family: 'Comfortaa', cursive;
+	font-size:0.7em;
+	margin:auto;
+	padding:5px;
+}
+#logoamapa{
+	align-items:flex-start;/*alinear arriba*/
+	display:flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	background: #fff;
+	max-width:100%;/*Ancho maximo*/
+}
+.logitodasatour{
+	text-align:left;
+	padding:10px;
+}
+.mapadasatour{
+	text-align:right;
+	padding:10px;
+}
+.contactanos{
+	background-color:#2c55ad;
+	background-position: center;
+	color:#FFF;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	padding:10px;
+	text-align:center;
+}
+.textodedatos{
+	font-size:24px;
+	font-family: 'Comfortaa', cursive;
+	margin:auto;
+	padding:15px;
+	text-align:center;
+}
+i{
+	color:#F00;
+	font-size:36px;
+	font-family: 'Comfortaa', cursive;
+}
+footer{
+	color: #FFF;
+	background-color:#2c55ad;
+	font-size:10px;
+	margin:auto;
+	width:100%;
+}
+#logodasatour-datos-contactodasatour{
+	align-items:flex-start;/*alinear arriba*/
+	display:flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	background:#2c55ad;
+	margin:auto;
+	max-width:1200px;/*Ancho maximo*/
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.logodasatour{
+	margin:auto;
+	padding:15px;
+	text-align:center;
+}
+.datos{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:10px;
+	margin:auto;
+	padding:5px;
+	color:#FFF;
+	text-align:center;
+}
+.diseñadaydesarrollada{
+	border-radius:0 20px 0 30px;
+	color: #FFF;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:9px;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition:all .7s;
+}
+.contactodasatour{
+	margin:auto;
+	padding:5px;
+	text-align:right;
+@media (max-width:1920px){
+#servicios {
+    color: #2c55ad;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    width: 30%;
+}
+strong {
+    font-family: 'Comfortaa', cursive;
+    color: #2c55ad;
+    font-size: 2.5em;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+}
+.textoquienessomos {
+    margin: 20px;
+    padding: 5px;
+    font-size:20px;
+    font-family: 'Comfortaa', cursive;
+}
+}
+@media(max-width:1366px){
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 30px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 40%;
+    margin:auto;
+}
+}
+@media(max-width:1250px){
+	.contenedorgaleria{
+	display:inline-flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 30%;
+    margin: 15px;
+}
+#servicios {
+    color: #2c55ad;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1em 1em 1em 1.5em;
+    margin: 20px;
+    width: 50%;
+}
+strong {
+    font-family: 'Comfortaa', cursive;
+    color: #2c55ad;
+    font-size: 2.5em;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+	text-align:center;
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.imgservicios{
+	width: 350px;
+    height: 350px;
+}
+.textoquienessomos{
+    text-align: center;
+    margin: auto;
+	font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.textocontactanos{
+	text-align: center;
+    margin: auto;
+	font-size:16px;
+    padding: 5px;
+    max-width: 100%;
+}
+#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: flex;
+	flex-wrap: nowrap;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    max-width: 1200px;
+}
+}
+@media(max-width:1200px){
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 350px;
+    height: 170px;
+    margin-bottom: 30px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 30%;
+    margin: 15px;
+}
+}
+@media(max-width:1050px){
+	.contenedorgaleria{
+	display:inline-flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 350px;
+    height: 175px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 40%;
+    margin: 15px;
+}
+#servicios {
+    color: #2c55ad;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1em 1em 1em 1.5em;
+    margin: 20px;
+    width: 50%;
+}
+strong {
+    font-family: 'Comfortaa', cursive;
+    color: #2c55ad;
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.imgservicios{
+	width: 350px;
+    height: 350px;
+}
+.textoquienessomos{
+    text-align: center;
+    margin: auto;
+	font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.textocontactanos{
+	text-align: center;
+    margin: auto;
+	font-size:16px;
+    padding: 5px;
+    max-width: 100%;
+}
+#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: flex;
+	flex-wrap: nowrap;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    max-width: 1200px;
+}
+}
+@media(max-width:1024px){
+	.textoquienessomos {
+    text-align: center;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+	font-size: 18.5px;
+}
+.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 350px;
+    height: 170px;
+    margin-bottom: 30px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 45%;
+    margin:5px;
+}
+#servicios {
+    color: #2c55ad;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    width: 30%;
+}
+strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:1.5em;
+	margin:5px;
+	padding:10px;
+	max-width:100%;
+	
+}
+}
+@media(max-width:850px){
+	.contenedorgaleria{
+	display:inline-flex;
+	width:auto;
+	justify-content:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 30%;
+    margin: 15px;
+}
+#servicios {
+    color: #2c55ad;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1em 1em 1em 1.5em;
+    margin: 20px;
+    width: 50%;
+}
+strong {
+    font-family: 'Comfortaa', cursive;
+    color: #2c55ad;
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+	text-align:center;
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.imgservicios{
+	width: 350px;
+    height: 350px;
+}
+.textoquienessomos{
+    text-align: center;
+    margin: auto;
+	font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.textocontactanos{
+	text-align: center;
+    margin: auto;
+	font-size:16px;
+    padding: 5px;
+    max-width: 100%;
+}
+#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: flex;
+	flex-wrap: nowrap;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    max-width: 1200px;
+}
+}
+@media(max-width:800px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	.icon-menu{
+	color:#ffc734;
+	}
+	.contenedorgaleria{
+	display:inline-flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 280px;
+    height: 140px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 35%;
+    margin: auto;
+}
+#servicios {
+    color: #2c55ad;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1em 1em 1em 1.5em;
+    margin: 20px;
+    width: 50%;
+}
+strong {
+    font-family: 'Comfortaa', cursive;
+    color: #2c55ad;
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+	text-align:center;
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.imgservicios{
+	width: 350px;
+    height: 350px;
+}
+.textoquienessomos{
+    text-align: center;
+    margin: auto;
+	font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.textocontactanos{
+	text-align: center;
+    margin: auto;
+	font-size:16px;
+    padding: 5px;
+    max-width: 100%;
+}
+#logodasatour-datos-contactodasatour{
+	align-items:flex-start;/*alinear arriba*/
+	display:flex;/*caja flexible*/
+	justify-content:center;/*ayuda a distribuir*/
+	background:#2c55ad;
+	margin:auto;
+	padding:10px;
+	max-width:100%;/*Ancho maximo*/
+}
+}
+@media(max-width:750px){
+	.contenedorgaleria{
+	display:inline-flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 30%;
+    margin: 15px;
+}
+#servicios {
+    color: #2c55ad;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.transporte, .seguromedico, .hospedaje {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1em 1em 1em 1.5em;
+    margin: 20px;
+    width: 50%;
+}
+strong {
+    font-family: 'Comfortaa', cursive;
+    color: #2c55ad;
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+	text-align:center;
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.imgservicios{
+	width: 320px;
+    height: 320px;
+}
+.textoquienessomos{
+    text-align: center;
+    margin: auto;
+	font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.textocontactanos{
+	text-align: center;
+    margin: auto;
+	font-size:16px;
+    padding: 5px;
+    max-width: 100%;
+}
+#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: flex;
+	flex-wrap: nowrap;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    max-width: 1200px;
+}
+}
+@media(max-width:600px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	#logodasatour,.datos,.diseñadaydesarrollada,.contactodasatour{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 39%;
+    margin: 15px;
+}
+p{
+	text-align: center;
+    margin: auto;
+	font-size:10px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.imgservicios{
+	width: 300px;
+    height: 300px;
+}
+#logodasatour-datos-contactodasatour{
+	align-items:flex-start;/*alinear arriba*/
+	display:flex;/*caja flexible*/
+	justify-content:center;/*ayuda a distribuir*/
+	background:#2c55ad;
+	margin:auto;
+	padding:10px;
+	max-width:100%;/*Ancho maximo*/
+}
+#logodasatour, .datos, .diseñadaydesarrollada, .contactodasatour {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+}
+@media(max-width:585px){
+	.enlace1{
+		margin:auto
+		text-align:center;
+		width:100%;
+	}
+	.logo-img{
+		padding:.5em;
+		margin-left:0;
+	}
+	.logo-meme-Sabaton{
+		padding:.5em;
+	}
+	.enlace-der{
+		margin-right:0;
+	}
+	.enlace{
+		margin-top:1em;
+	}
+	#productox4 h1{
+		font-size:2em;
+	}
+	p {
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: table;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+}
+.contenedoreldestinoquesoñaste h1 {
+    color: #fbc82e;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    position: relative;
+}
+	#logodasatour, .datos, .diseñadaydesarrollada, .contactodasatour {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+}
+@media(max-width:550px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	#logodasatour,.datos,.diseñadaydesarrollada,.contactodasatour{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 250px;
+    margin: 25px;
+}
+p{
+	text-align: center;
+    margin: auto;
+	font-size:10px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+.imgservicios{
+	width: 200px;
+    height: 200px;
+}
+strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:1.5em;
+	margin:5px;
+	padding:5px;
+	max-width:100%;
+	
+}
+#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: inline-block;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+}
+
+#logodasatour, .datos, .diseñadaydesarrollada, .contactodasatour {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.galeriaitem {
+    width: 43%;
+    margin: 15px;
+}
+}
+@media(max-width:414px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	.destinos3 {
+    color: #fff;
+    background: #2c55ad;
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px 0 10px 0;
+    max-width: 100%;
+}
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 150px;
+    height: 75px;
+    margin-bottom: 10px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+	.galeriaitem {
+    width: 150px;
+    margin:auto;
+}
+	.logodasatour,.datos,.diseñadaydesarrollada,.contactodasatour{
+		align-items:flex-start;/*alinear arriba*/
+		display: inline-block;/*caja flexible*/
+		justify-content:space-between;/*ayuda a distribuir*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.datos{
+		align-items:flex-start;/*alinear arriba*/
+		display:inline-block;/*caja flexible*/
+		justify-content:center;/*ayuda a distribuir*/
+		font-size:1em;
+		text-align:center;
+	}
+	#logodasatour-datos-contactodasatour {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    background: #2c55ad;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+}
+	#servicios{
+		align-items:center;/*alinear arriba*/
+		display: flex;/*caja flexible*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.transporte,.seguromedico,.hospedaje{
+	align-items:center;/*centrar horizontalmente*/
+	display:inline-flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:15px;
+	width:25%;
+}
+	strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:0.6em;
+	margin:5px;
+	padding:5px;
+	max-width:100%;
+	
+}
+	.imgservicios{
+	width:100px;
+    height:100px;
+}
+	b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+
+h3, h4, h5 {
+    color: #fff;
+    font-size:0.5em;
+    background: #2c55ad;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+i {
+    color: #F00;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+}
+}
+@media(max-width:412px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	.contenedoreldestinoquesoñaste h1 {
+    color: #fbc82e;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    position: relative;
+}
+	.contenedorgaleria {
+    display: inline-flex;
+    width: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+	.galeriaimg {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+.galeriaitem {
+    width: 47%;
+    margin: 5px;
+}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#logodasatour-datos-contactodasatour{
+		align-items:flex-start;/*alinear arriba*/
+		display: inline-block;/*caja flexible*/
+		justify-content:space-between;/*ayuda a distribuir*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+}
+	#servicios{
+		align-items:center;/*alinear arriba*/
+		display: flex;/*caja flexible*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.transporte,.seguromedico,.hospedaje{
+	align-items:center;/*centrar horizontalmente*/
+	display:inline-flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:15px;
+	width:25%;
+}
+	strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:0.6em;
+	margin:5px;
+	padding:5px;
+	max-width:100%;
+	
+}
+	.imgservicios{
+	width:100px;
+    height:100px;
+}
+	b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.destinos3 {
+    color: #fff;
+    background: #2c55ad;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+}
+.textocontactanos {
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+    padding: 5px;
+    max-width: 100%;
+
+}
+i {
+    color: #F00;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+}
+.textoquienessomos {
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+}
+@media(max-width:375px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	.destinos3 {
+    color: #fff;
+    background: #2c55ad;
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px 0 10px 0;
+    max-width: 100%;
+}
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 150px;
+    height: 75px;
+    margin-bottom: 10px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+	.galeriaitem {
+    width: 150px;
+    margin:auto;
+}
+	.logodasatour,.datos,.diseñadaydesarrollada,.contactodasatour{
+		align-items:flex-start;/*alinear arriba*/
+		display: inline-block;/*caja flexible*/
+		justify-content:space-between;/*ayuda a distribuir*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+		padding:10px;
+	}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.datos{
+		align-items:flex-start;/*alinear arriba*/
+		display:inline-block;/*caja flexible*/
+		justify-content:center;/*ayuda a distribuir*/
+		font-size:1em;
+		text-align:center;
+	}
+	#logodasatour-datos-contactodasatour{
+	align-items:flex-start;/*alinear arriba*/
+	display:inline-block;/*caja flexible*/
+	justify-content:center;/*ayuda a distribuir*/
+	background:#2c55ad;
+	margin:auto;
+	padding:10px;
+	max-width:100%;/*Ancho maximo*/
+}
+	#servicios{
+		align-items:center;/*alinear arriba*/
+		display: flex;/*caja flexible*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.transporte,.seguromedico,.hospedaje{
+	align-items:center;/*centrar horizontalmente*/
+	display:inline-flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:15px;
+	width:25%;
+}
+	strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:0.6em;
+	margin:5px;
+	padding:5px;
+	max-width:100%;
+	
+}
+	.imgservicios{
+	width:100px;
+    height:100px;
+}
+b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.7em;
+    margin: auto;
+    padding: 5px;
+}
+h3, h4, h5 {
+    color: #fff;
+    font-size:0.5em;
+    background: #2c55ad;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+}
+@media(max-width:360px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	.contenedoreldestinoquesoñaste h1 {
+    color: #fbc82e;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    position: relative;
+}
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+	.galeriaitem {
+    width: 70%;
+    margin: 5px;
+}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#logodasatour-datos-contactodasatour{
+		align-items:flex-start;/*alinear arriba*/
+		display: inline-block;/*caja flexible*/
+		justify-content:space-between;/*ayuda a distribuir*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+}
+	#servicios{
+		align-items:center;/*alinear arriba*/
+		display: flex;/*caja flexible*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.transporte,.seguromedico,.hospedaje{
+	align-items:center;/*centrar horizontalmente*/
+	display:inline-flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:15px;
+	width:25%;
+}
+	strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:0.6em;
+	margin:5px;
+	padding:5px;
+	max-width:100%;
+	
+}
+	.imgservicios{
+	width:100px;
+    height:100px;
+}
+	b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.textoquienessomos {
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+
+}
+@media(max-width:320px){
+	#menu-principal label{
+		display:block;
+	}
+	.menu{
+		background-color: #2c55ad;
+		margin-left:-80%;
+		position:absolute;
+		transition:all .5s;
+		width:80%;
+		z-index:10000;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	.menu li{
+		border-top:2px solid #000;
+	}
+	.menu li a{
+		color: #fff;
+	}
+	#menu-del-dia:checked ~ .menu{
+		margin:0;
+	}
+	.contenedoreldestinoquesoñaste h1 {
+    color: #fbc82e;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    position: relative;
+}
+	.contenedorgaleria{
+	display:flex;
+	width:auto;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
+	padding:5px;
+}
+	.galeriaimg {
+    width: 250px;
+    height: 125px;
+    margin-bottom: 15px;
+    filter: brightness(60%);
+    animation: escalar 1.2s infinite alternate;
+}
+	.galeriaitem {
+    width: 70%;
+    margin: 5px;
+}
+	#eldestinoquesoñaste,.contenedoreldestinoquesoñaste{
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	#logodasatour-datos-contactodasatour{
+		align-items:flex-start;/*alinear arriba*/
+		display: inline-block;/*caja flexible*/
+		justify-content:space-between;/*ayuda a distribuir*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+}
+	#servicios{
+		align-items:center;/*alinear arriba*/
+		display: flex;/*caja flexible*/
+		margin:auto;
+		text-align:center;
+		width:100%;
+	}
+	.transporte,.seguromedico,.hospedaje{
+	align-items:center;/*centrar horizontalmente*/
+	display:inline-flex;/*caja flexible*/
+	flex-wrap:wrap;/*permite distribuir los elementos hijos en el mismo espacio*/
+	justify-content:center;/*ayuda a distribuir*/
+	margin:15px;
+	width:25%;
+}
+	strong{
+	font-family: 'Comfortaa', cursive;
+	color:#2c55ad;
+	font-size:0.6em;
+	margin:5px;
+	padding:5px;
+	max-width:100%;
+	
+}
+	.imgservicios{
+	width:100px;
+    height:100px;
+}
+	b {
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 5px;
+}
+.textoquienessomos {
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    max-width: 100%;
+}
+}
